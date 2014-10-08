@@ -1,0 +1,11 @@
+LPSTR FicheroDeConfiguracion (void);
+LPSTR FicheroDeSalida (void);
+LPSTR DirectorioDeRecron (void);
+LPSTR DirectorioDeVercron (void);
+void GuardarFicheroDeConfiguracion (LPSTR strFicheroDeConfiguracion);
+void GuardarFicheroDeSalida (LPSTR strFicheroDeSalida);
+void VaciarFicheroDeSalida (void);
+void VaciarFicheroDeRecron (void);
+void VaciarFicheroDeVercron (void);
+BOOL BuscarPuntoCom (LPSTR strOrden);
+BOOL BuscarOrdenInterna (LPSTR strOrden);

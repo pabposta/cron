@@ -1,0 +1,1 @@
+int AvisarCron (int argc, char *argv[]);
